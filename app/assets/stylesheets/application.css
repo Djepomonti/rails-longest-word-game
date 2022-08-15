@@ -1,15 +1,87 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.container {
+  width: 500px;
+  margin: 140px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+h1 {
+  display: grid;
+  justify-content: center;
+  font-family: sans-serif;
+
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.lettre{
+  background-color: rgb(251, 163, 82);
+  color: white;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+p{
+  display: flex;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: grey;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.sub{
+display: flex;
+justify-content: center;
+}
+input{
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 5px;
+}
+.css-input:focus {
+  outline:none;
+}
+.play{
+  background-color: rgb(251, 163, 82);
+  color: white;
+  margin-bottom: 45px;
+
+}
+.btn a{
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: darkmagenta;
+  color: white;
+  padding: 14px 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-left: 140px;
+  margin-bottom: 15px;
+}
+a:hover{
+  background-color: rgb(170, 14, 170);
+
+}
